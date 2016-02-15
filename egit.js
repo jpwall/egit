@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var simpleGit = require('simple-git');
 var addFile = process.argv[2];
 var commitMessage = process.argv[3];
