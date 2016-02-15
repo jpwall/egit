@@ -5,17 +5,17 @@ This program relies on the use of git, simple-git, node, and npm. Depending on y
 
 `npm install -g egit`
 
-Done!
+Done! (sudo may be necessary depending on system configuration)
 
 ## Usage
 This program is intended to make it as simple as possible for someone to git add, commit, and push all at once. This can be done by executing:
 
 `egit [file.example] 'commit message' [branch]`
 
-And that's it! This is equivalent to doing:
+And that's it! This is equivalent to executing:
 ```
 git add [file.example]
 git commit -m 'commit message'
 git push origin [branch]
 ```
-So, now the lengthy process of adding, commiting, and pushing over multiple lines is gone!
+Now the lengthy process of adding, commiting, and pushing over multiple lines is gone!
