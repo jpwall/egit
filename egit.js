@@ -19,9 +19,9 @@ require('simple-git')()
     })
 
     .push('origin', branch, function (err, data) {
-	if(err) {
+	/*if(err) {
 	    console.log(branch + ' does not seem to be a valid branch');
-	}
+	}*/
 	//console.log(data);
     });
 
