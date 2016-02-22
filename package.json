@@ -1,6 +1,6 @@
 {
   "name": "egit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A dead-simple program to git add, commit, and push in one line",
   "main": "egit.js",
   "bin": {
