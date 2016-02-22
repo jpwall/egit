@@ -22,6 +22,6 @@ require('simple-git')()
 	if(err) {
 	    console.log(branch + ' does not seem to be a valid branch');
 	}
-	console.log(data);
+	//console.log(data);
     });
 
