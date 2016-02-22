@@ -6,7 +6,22 @@ var commitMessage = process.argv[3];
 var branch = process.argv[4];
 
 require('simple-git')()
-    .add(addFile)
-    .commit(commitMessage)
-    .push('origin', branch);
+    .add(addFile, function (err, data) {
+	if(err) {
+	    console.log(err);
+	}
+    })
+
+    .commit(commitMessage, function (err, data) {
+	if(err) {
+	    console.log(err);
+	}
+    })
+
+    .push('origin', branch, function (err, data) {
+	if(err) {
+	    console.log(err);
+	}
+	console.log(data);
+    });
 
